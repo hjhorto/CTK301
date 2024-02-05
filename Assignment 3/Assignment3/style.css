@@ -1,0 +1,45 @@
+
+h1 {
+    color:rgb(134, 134, 134)
+  }
+  h1{
+    background-color:rgb(224, 239, 253)
+  }
+
+h3 {
+    color:rgb(134, 134, 134)
+  }
+  h3{
+    background-color:rgb(224, 239, 253)
+  }
+
+h2 {
+    color:rgb(134, 134, 134)
+  }
+  h2{
+    background-color:rgb(224, 239, 253)
+  }
+  a:visited {
+    color: green;
+  }
+  
+  a:active {
+    color: #ff0000;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }    
+  p {
+    background-color: aliceblue;
+  }
+  .specialp {
+    color:#ff0000
+  }
+  #threeclasses {
+    color: aqua;
+
+  }
+.spanstyle {
+    color: purple;
+}
