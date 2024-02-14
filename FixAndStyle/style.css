@@ -1,0 +1,51 @@
+
+
+header {
+background-color: rgb(204, 204, 255);
+}
+h1{
+color: white;
+}
+a {
+  text-decoration: none;
+  }
+  
+  a:link {
+    color: #067606;
+  }
+  a:visited{
+    color: #067606;
+  }
+  
+  a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+  }
+  h2{
+    color: blue;
+  }
+  .specialb{
+    color: orange;
+  }
+  h3 {
+    background-color: yellow;
+  }
+  .pushing {
+color: red;
+  }
+  h4 {
+    background-color: rgb(5, 91, 10);
+    color:yellow;
+  }
+  .mintyfresh{
+    background-color: mediumspringgreen;
+  }
+  footer{
+    background-color: yellow;
+  }
+  h5{
+    color: red;
+  }
+  .bnb{
+    color: blue;
+  }
