@@ -1,0 +1,97 @@
+
+body {    
+    background-image: url(a62.png);
+    background-repeat: repeat;
+    background-position: top left;}
+#wrapper {
+    margin: 1em auto;
+    padding: 10px;
+    width: 960px;
+    border: 3px solid black;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  header {
+    background-color: #000000;
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: none;
+    grid-column: span 12;
+  }
+header h1{
+  font-weight: normal;
+}
+
+  nav {
+    grid-column: span 2;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    color: #ffffff;
+  }
+  nav li a {
+    color: #ffffff;
+    display: block;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  nav li a:hover {
+    background-color: rgb(199, 0, 0); 
+    padding: 10px;
+  }
+  
+  main {
+    grid-column: span 10;
+    padding: 1em;
+  }
+  main h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 4px solid #000000;
+    padding-bottom: 10px;
+  }
+  main a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+
+  main a:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  main p {
+    margin: 5px;
+    padding: 10 px ;
+  }
+  .gerge{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .floatimg {
+    float: left;
+    width: 400px;
+    padding-right: 20px;
+    border: 4px solid #000000;
+    padding: 1em;
+    margin: 5px;
+   }  
+  
+  footer {
+    grid-column: span 12;
+    clear: both;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-style: italic;
+  }
