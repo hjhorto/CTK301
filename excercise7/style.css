@@ -1,0 +1,116 @@
+
+body {    
+    background-image: url(cool.jpeg);
+    background-repeat: repeat;
+    background-position: top left;}
+#wrapper {
+    margin: 1em auto;
+    
+    width: 960px;
+    border: 3px solid black;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  header {
+    background-color: rgb(0, 162, 255);
+    color: rgb(0, 0, 0) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: none;
+    grid-column: span 12;
+    padding: 10px;
+    border-bottom: 3px solid black;
+  }
+header h1{
+  font-weight: normal;
+}
+
+  nav {
+    grid-column: span 12;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    color: #ffffff;
+  }
+  nav li a {
+    color: #ffffff;
+    display: block;
+    background-color: rgb(27, 146, 0);
+    text-decoration: none;
+    border: 2px solid #000000;
+    padding: 15px;
+    display: block;
+  }
+  nav li a:hover {
+    background-color: rgb(199, 0, 0); 
+    padding: 15px;
+  }
+  
+  main {
+    grid-column: span 8;
+    padding: 1em;
+  }
+  main h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+  }
+  main a {
+    color: #00810b;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  main a:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  main p {
+    margin: 5px;
+    padding: 5 px ;
+  }
+  .gerge{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal ;
+    margin-bottom: 20px;
+  }
+
+  .floatimg {
+    float: right;
+    width: 300px;
+    padding-right: 20px;
+    padding: 1em;
+    margin: 5px;
+   }  
+  aside{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(0, 162, 255);
+    grid-column: span 4;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    
+  }
+  aside h2{
+    color: lightblue;
+    border-bottom: 2px solid #ffffff;
+  }
+  footer {
+    background-color: rgb(0, 162, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-column: span 12;
+    border-top: 3px solid black;
+    padding: 5px ;
+    
+  }
