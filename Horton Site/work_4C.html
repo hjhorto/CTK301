@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Work</title>
+    <title>Four Corners</title>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
-    <link href="wstyle.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+    <link href="WCstyle.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
    
 </head>
@@ -23,17 +23,18 @@
           </ul>
     </nav>
     <main>
-        <a href="#">
-            <img src="assets/isu.png.png" alt="isu" >
-          </a>
-          <a href="work_4C.html">
-            <img src="assets/4c.jpg" alt="4c">
-          </a>
-          <a href="#">
-            <img src="assets/ffl.PNG" alt="ffl">
-          </a>
-                              
+<h2>Four Corners</h2>
+<p>is a leading, Chicago-based hospitality group that owns and operates unique establishments. My Role: Marketing Intern</p>
+<h2>Graphics</h2>
+<p>Memes-Insta-Mevato</p>
+<div id="myCarousel" class="f-carousel">
+    <div class="f-carousel__slide"><img src="assets/Air.png"></div>
+    <div class="f-carousel__slide"><img src="assets/12.png"></div>
+    <div class="f-carousel__slide"><img src="assets/golf.png"></div>
+</div>
     </main>
+
+
 
     <footer>
         <ul>
@@ -42,7 +43,11 @@
 
 </ul>
 </footer>
-
-    </div>
+</div>
+<script>
+    const container = document.getElementById("myCarousel");
+    const options = { infinite: false };
+    new Carousel(container, options);
+</script>
 </body>
 </html>

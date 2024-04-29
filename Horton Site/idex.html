@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
     <link href="istyle.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
    
@@ -21,34 +23,31 @@
           </ul>
     </nav>
     <main>
-    <div class="slideshow-container">
-        <div class="mySlides fade">
-            <video controls>
-                <source src="assets/Opening Day_1.mp4" type="video/mp4">
+        <div id="myCarousel" class="f-carousel">
+            <div class="f-carousel__slide"><img src="assets/henny.jpg"></div>
+            <div class="f-carousel__slide">video controls>
+                <source src="assets/Yuh.mp4" type="video/mp4">
                 Your browser does not support the video tag.
-            </video>
+            </video> </div>
+            <div class="f-carousel__slide"><source src="assets/Opening Day_1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video> </div>
         </div>
-    
-        <div class="mySlides fade">
+          <a href="icecream.jpg" data-fancybox="gallery" data-caption="Ice Cream">
             <video controls>
                 <source src="assets/Yuh.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-        </div>
-            <!-- Add more slides as needed -->
-        
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <script src="slideshow.js"></script>
+          </a>
     </main>
+
     <section>
 <ul>
-    <h1>Filmmaker</h1>
-    <h1>Editor</h1>
-    <h1>Audio Engineer</h1>
-    <h1>Designer</h1>
-    <h1>+ More</h1>
+    <li>Filmmaker</li>
+    <li>Editor</li>
+    <li>Audio Engineer</li>
+    <li>Designer</li>
+    <li>+ More</li>
 </ul>
     </section>
 
@@ -59,8 +58,14 @@
         <ul>
 <li><a href="https://www.linkedin.com/in/henry-horton-25808a242?trk=public_post_feed-actor-name">linkedin</a></li>
 <li><a href="https://www.instagram.com/henryjthorton/">Instagram</a></li>
+
 </ul>
 </footer>
 </div>
+<script>
+    const container = document.getElementById("myCarousel");
+    const options = { infinite: false };
+    new Carousel(container, options);
+</script>
 </body>
 </html>
