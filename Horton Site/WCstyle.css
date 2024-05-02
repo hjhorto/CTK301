@@ -3,7 +3,7 @@ body { background-color: #e2e2e2; }
 #wrapper {
   margin: 1em auto;
   padding: 0;
-  width: 960px;
+  width: 1200px;
   background-color: rgba(255, 228, 196, 0.76);
   font-family: 'Inter' ;
   display: grid;
@@ -27,6 +27,14 @@ header {
     grid-column-start: 3;
     grid-column-end: 11;
     margin-top: 15px;
+    text-align: center;
+   
+  }
+  main img {
+    width: 400px;
+  }
+  iframe {
+    justify-content: center;
   }
   #myCarousel {
     margin-bottom: 24px;

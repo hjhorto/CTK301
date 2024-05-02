@@ -3,7 +3,7 @@ body { background-color: #e2e2e2; }
 #wrapper {
   margin: 1em auto;
   padding: 0;
-  width: 960px;
+  width: 1200px;
   background-color: rgba(255, 228, 196, 0.76);
   font-family: 'Inter' ;
   display: grid;
@@ -24,16 +24,19 @@ header {
   }
   main {
     background-color: rgba(255, 228, 196, 0.76);
-    grid-column-start: 3;
-    grid-column-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 12;
     margin-top: 15px;
+ 
   }
   main a {
 
     width: 100; 
   }
 
+
 img {
+  align-content: center;
     width: 300px;
 }
 

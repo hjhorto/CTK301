@@ -3,7 +3,7 @@ body { background-color: #e2e2e2; }
 #wrapper {
   margin: 1em auto;
   padding: 0;
-  width: 960px;
+  width: 1200px;
   background-color: rgba(255, 228, 196, 0.76);
   font-family: 'Inter' ;
   display: grid;
@@ -27,6 +27,10 @@ header {
     grid-column-start: 3;
     grid-column-end: 11;
     margin-top: 15px;
+    justify-content: center;
+  }
+  iframe {
+    justify-content: center;
   }
   .slideshow-container {
     background-color: rgba(255, 228, 196, 0.76);
@@ -113,8 +117,12 @@ nav li {
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  section h1{
-    text-align: right;
+ section ul{
+  margin: 20px;
+  margin-left: 275px;
+ }
+  section li{
+    font-size: larger;
   }
   section img {
     float: center;
